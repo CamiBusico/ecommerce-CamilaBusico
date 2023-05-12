@@ -1,0 +1,97 @@
+/* estilos generales */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --colorUno: #772B08; 
+  --colorDos:#8F7F10;
+  --colorTres: #F7ECC4;
+  --colorCuatro:#817707;
+  --colorCinco:#7e3131;
+  --tipografiaUno: font-family: 'Amatic SC', cursive;
+  --tipografiaDos: font-family: 'Jura', sans-serif;
+  --tipografiaTres: font-family: 'Playfair Display SC', serif;
+  --tipografiaCuatro: font-family: 'Quicksand', sans-serif;
+}
+
+.body{ 
+  height: 100%;
+  width: 100%;
+  background-color: var(--colorTres);
+}
+
+/* navbar  */
+.header{
+  background-color: var(--colorDos);
+ padding: 1%;
+ display: flex;
+  justify-content: space-between;
+}
+
+.nav-link{ color: #F7ECC4;
+          
+}
+.nav-link:hover{ color: #772B08;
+
+}
+
+
+.partesNav{
+  display: flex;
+  align-items: center;
+}
+
+.botonExpandir:hover{
+  background-color: #F7ECC4;
+}
+
+.menu{ 
+  justify-content: flex-end;
+}
+
+
+/* Item list container */
+
+.cardsCervezas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-text{
+  font-family: 'Quicksand', sans-serif;;
+}
+
+.estiloBotones{
+    background-color:  var(--colorTres);
+    color:var(--colorCuatro);
+    border: black;
+}
+
+.estiloBotones:hover{
+          background-color: var(--colorCuatro);
+          color: var(--colorTres);
+      }
+
+
+
+/*  app.js */
+
+.estiloSlogan{
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  padding: 2%;
+  color:#8F7F10;
+}
+
+/* footer */
+
+.footer{
+    background-color:#817707;
+    padding: 2%;
+    color: #F7ECC4;
+    text-align: center;
+}
