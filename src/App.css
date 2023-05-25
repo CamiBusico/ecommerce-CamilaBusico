@@ -17,11 +17,7 @@
   --tipografiaCuatro: font-family: 'Quicksand', sans-serif;
 }
 
-.body{ 
-  height: 100%;
-  width: 100%;
-  background-color: var(--colorTres);
-}
+
 
 /* navbar  */
 .header{
@@ -35,9 +31,7 @@
           
 }
 .nav-link:hover{ color: #772B08;
-
 }
-
 
 .partesNav{
   display: flex;
@@ -53,10 +47,11 @@
 }
 
 
-/* Item list container */
+/* Cards */
 
 .cardsCervezas{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -75,6 +70,9 @@
           background-color: var(--colorCuatro);
           color: var(--colorTres);
       }
+
+.estiloBotones:focus:active{background-color: #772B08;
+}
 
 
 

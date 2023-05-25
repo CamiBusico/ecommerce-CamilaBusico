@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import ItemCount from "./ItemCount.jsx"
 
 
 
@@ -19,16 +20,19 @@ const Cards  = () => {
                     }
 
     return(
-
+    
         <div className="main"> 
 
             <div className="cardsCervezas">
+               
+            
                          <div className="card" style={estiloCards}>
                             <img src={"images/fotos-birras/dobleipafoto.png"} className="card-img-top" alt="..."/>
                             <div className="card-body" >
                                 <h5 className="card-title tituloCard">Doble IPA Catedral</h5>
                                 <p className="card-text">La especialidad de la casa. Fuerte e intensamente lupulada, pero limpia y seca, sin asperezas.</p>
-                                <a href="/" className="btn btn-primary estiloBotones" onClick={agregar} >Añadir</a>
+                              <ItemCount stock={10} />
+
                             </div>
                          </div>
 
@@ -77,10 +81,12 @@ const Cards  = () => {
                                 <a href="/" className="btn btn-primary estiloBotones" onClick={agregar}>Añadir</a>
                             </div>
                          </div>
+               
              </div>
         
         </div>
-    )
+        )
+    
 }
 
 

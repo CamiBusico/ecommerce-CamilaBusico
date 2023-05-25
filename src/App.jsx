@@ -6,14 +6,14 @@ import Navbar from './components/Navbar';
 
 function App() {
         return (
-          <div>
-            <body className='body'>
+          
+            <div className='' style={{backgroundColor:'var(--colorTres)'}}>
             
                 <Navbar/>
                 <ItemListContainer slogan={"Más que una IPA"} />
                 <Footer legal={"Producto exclusivo para mayores de 18 años"} />
-            </body>
-          </div>
+            </div>
+         
         
         )
 }
