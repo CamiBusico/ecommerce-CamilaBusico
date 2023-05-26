@@ -6,56 +6,62 @@
         "tipo": "Doble IPA",
         "descripcion": "La especialidad de la casa. Fuerte e intensamente lupulada, pero limpia y seca, sin asperezas.", 
         "precio": 1000,
-        "stock": 10
+        "stock": 10,
+        "categoria": "Especiales"
     },
 
     {
         "idx": 2,
         "nombre": "Leñas",
-        "imagen": "images/fotos-birras/ipafoto.png",
+        "imagen": "/images/fotos-birras/ipafoto.png",
         "tipo": "American IPA",
         "descripcion": "Estilo American IPA. Es una cerveza lupulada y amarga, moderadamente fuerte.", 
         "precio": 950,
-        "stock": 15
+        "stock": 15,
+        "categoria": "Clasicas"
     },
 
     {
         "idx": 3,
         "nombre": "Castor",
-        "imagen": "images/fotos-birras/goldenfoto.png",
+        "imagen": "/images/fotos-birras/goldenfoto.png",
         "tipo": "Golden Ale",
         "descripcion": "Estilo Golden Ale. Es ligera, de carácter dulce, con poca presencia del lúpulo y sabores frutales.", 
         "precio": 800,
-        "stock": 10
+        "stock": 10,
+        "categoria": "Clasicas"
     },
 
     {
         "idx": 4,
         "nombre": "Caviahue",
-        "imagen": "images/fotos-birras/blondealefoto.png",
+        "imagen": "/images/fotos-birras/blondealefoto.png",
         "tipo": "Bonde Ale",
         "descripcion": "Estilo Blonde Ale. Fáciles de beber y accesibles, con notas a fruta, lúpulo o carácter de malta.", 
         "precio": 800,
-        "stock": 10
+        "stock": 10,
+        "categoria": "Clasicas"
     },
 
     {
         "idx": 5,
         "nombre": "Chapelco",
-        "imagen": "images/fotos-birras/scottishheavyfoto.png",
+        "imagen": "/images/fotos-birras/scottishheavyfoto.png",
         "tipo": "Scottish",
         "descripcion": "Estilo Scottish Heavy. Estas cervezas están centradas en la malta, generalmente acarameladas.", 
         "precio": 900,
-        "stock": 10
+        "stock": 10,
+        "categoria": "Especiales"
     },
 
     {
         "idx": 6,
         "nombre": "Bayo",
-        "imagen": "images/fotos-birras/negrafoto.png",
+        "imagen": "/images/fotos-birras/negrafoto.png",
         "tipo": "American Porter",
         "descripcion": "Estilo American Porter. Son oscuras y con carácter complejo, sabor a pan, bizcocho y malta tostada.", 
         "precio": 900,
-        "stock": 10
+        "stock": 10,
+        "categoria": "Especiales"
     }
 ]

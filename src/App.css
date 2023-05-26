@@ -64,6 +64,7 @@
     background-color:  var(--colorTres);
     color:var(--colorCuatro);
     border: black;
+    border-radius: 2px;
 }
 
 .estiloBotones:hover{
@@ -72,6 +73,10 @@
       }
 
 .estiloBotones:focus:active{background-color: #772B08;
+}
+
+.detallesProductos{
+  background-color:#F7ECC4;
 }
 
 
@@ -83,6 +88,10 @@
   text-align: center;
   padding: 2%;
   color:#8F7F10;
+}
+
+.main{
+  height: 100px;;
 }
 
 /* footer */

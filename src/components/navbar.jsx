@@ -1,5 +1,7 @@
 import React from "react";
 import CartWidget from "./CartWidget";
+import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return(
@@ -7,7 +9,7 @@ const Navbar = () => {
     <div className="container-fluid header">
                {/* logo */}
                 <div className="">
-                    <a className="navbar-brand" href="/"> <img src={"images/DOBLE IPA 3.png"} alt="Logo" /></a>
+                    <Link className="navbar-brand" to="/"> <img src={"/images/DOBLE IPA 3.png"} alt="Logo" /></Link>
                 </div>
 
                 {/* nav hamburguesa bootstrap */}
@@ -20,13 +22,13 @@ const Navbar = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                            <a className="nav-link " aria-current="page" href="/">Home</a>
+                            <NavLink className="nav-link " aria-current="page" to={"/"} >Home</NavLink>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/">Cervezas</a>
+                            <NavLink className="nav-link" to={"/category/Clasicas"}>Clásicas</NavLink>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/">Picotear</a>
+                            <NavLink className="nav-link" to={"/category/Especiales"}>Especiales</NavLink>
                             </li>
                         </ul>
                         </div>
