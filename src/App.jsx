@@ -1,9 +1,10 @@
 import './App.css';
 import React from "react";
-import ItemListContainer from './components/ItemListComntainer';
+import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Carousel from './components/Carousel';
 import { BrowserRouter,Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <div className='' style={{backgroundColor:'var(--colorTres)'}}>
                 <BrowserRouter>
                 <Navbar/>
+                <Carousel/>
                 <Routes >
                     <Route path={"/"} element={<ItemListContainer slogan={"Más que una IPA"} />} />
                     <Route path={'/category/:id'} element={<ItemListContainer slogan={"Más que una IPA"} />} />

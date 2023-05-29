@@ -13,14 +13,14 @@ const ItemDetail =({producto})=> {
 
 
     return(
-        <div className="container-fluid ">
-        <div className="card mb-3 detallesProductos my-3" >
+        <div className="container-fluid  ">
+        <div className="card mb-3 " style={{padding:"3%", width:"70%", marginRight:"auto", marginLeft:"auto", backgroundColor:"#e2cd82"}}>
             <div className="row g-0" >
                 <div className="col-md-4">
-                <img src={datos.imagen} className="card-img-top m-2" alt={datos.nombre} />
+                <img src={datos.imagen} className="card-img-top" style={{margin:"2%"}} alt={datos.nombre} />
                 </div>
                 <div className="col-md-8">
-                <div className="card-body">
+                <div className="card-body" style={{marginLeft:"1%"}}>
                     <h5 className="card-title">{datos.tipo} {datos.nombre}</h5>
                     <p className="card-text">{datos.descripcion}</p>
                     <p className="card-text"><small className="text-body-secondary">${datos.precio}</small></p>

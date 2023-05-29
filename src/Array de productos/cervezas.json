@@ -26,7 +26,7 @@
         "nombre": "Castor",
         "imagen": "/images/fotos-birras/goldenfoto.png",
         "tipo": "Golden Ale",
-        "descripcion": "Estilo Golden Ale. Es ligera, de carácter dulce, con poca presencia del lúpulo y sabores frutales.", 
+        "descripcion": "Estilo Golden Ale. Es ligera, de carácter dulce, poca presencia del lúpulo y sabores frutales.", 
         "precio": 800,
         "stock": 10,
         "categoria": "Clasicas"

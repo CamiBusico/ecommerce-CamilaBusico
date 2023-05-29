@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import Cards from './Cards'; 
 import arrayCervezas from '../Array de productos/cervezas.json'
 import ItemList from './ItemList'
 import { useParams } from "react-router-dom";
@@ -23,14 +22,12 @@ const ItemListContainer  = ({slogan} ) => {
 
     return(
         
-        <div className="container-fluid">
-            <div className="row">
-
+        <div className="container-fluid " >
+            
             <h2 className="estiloSlogan">{slogan} </h2>
             
             <ItemList productos={items} />
-            {/* <Cards/> */}
-            </div>
+           
         </div>
     )
 }

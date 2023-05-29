@@ -12,10 +12,10 @@ const Item = ({producto})=>{
     return(
 
         <>
-
-            <div className="col-md-3">
+        
+            <div className="col mx-5" >
                     <Link to={"/item/" + producto.idx} className='text-decoration-none'>
-                        <div className="card" style={estiloCards}>
+                        <div className="card " style={estiloCards}>
                             
                             <img src={producto.imagen} className="card-img-top" alt={producto.nombre} />
                             <div className="card-body" >

@@ -8,7 +8,7 @@
 :root{
   --colorUno: #772B08; 
   --colorDos:#8F7F10;
-  --colorTres: #F7ECC4;
+  --colorTres: #f7ecc4;
   --colorCuatro:#817707;
   --colorCinco:#7e3131;
   --tipografiaUno: font-family: 'Amatic SC', cursive;
@@ -27,9 +27,9 @@
   justify-content: space-between;
 }
 
-.nav-link{ color: #F7ECC4;
-          
+.nav-link{ color: #F7ECC4;      
 }
+
 .nav-link:hover{ color: #772B08;
 }
 
@@ -48,13 +48,6 @@
 
 
 /* Cards */
-
-.cardsCervezas{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
 .card-text{
   font-family: 'Quicksand', sans-serif;;
@@ -90,9 +83,7 @@
   color:#8F7F10;
 }
 
-.main{
-  height: 100px;;
-}
+
 
 /* footer */
 
@@ -101,4 +92,13 @@
     padding: 2%;
     color: #F7ECC4;
     text-align: center;
+}
+
+/* Carrousel */
+
+.estiloCarousel{
+  width: 60%;
+  margin: 10px; 
+  margin-right:auto ; 
+  margin-left: auto;
 }
