@@ -18,7 +18,9 @@ function App() {
                     <Route path={"/"} element={<ItemListContainer slogan={"Más que una IPA"} />} />
                     <Route path={'/category/:id'} element={<ItemListContainer slogan={"Más que una IPA"} />} />
                     <Route path={'/item/:id'} element={<ItemDetailContainer/>} />
-                    <Route path={'/*'} element={<div class="alert alert-danger m-2" role="alert">ERROR 404 NOT FOUND</div>}/>
+                    <Route path={'/*'} element={ <div style={{height:"100vh"}}>
+                    <div className="alert alert-danger m-2" role="alert" >ERROR 404 NOT FOUND</div>
+                    </div>}/>
                 </Routes>
                 <Footer legal={"Producto exclusivo para mayores de 18 años"} />
                 </BrowserRouter>

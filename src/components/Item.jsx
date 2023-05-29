@@ -3,19 +3,13 @@ import { Link } from 'react-router-dom'
 
 const Item = ({producto})=>{
 
-    let estiloCards = {width:"18rem",
-    margin:"2%", 
-    backgroundColor:"var(--colorCinco)", 
-    color:"white"
-    }
-
     return(
 
         <>
         
-            <div className="col mx-5" >
+            <div className="col mx-5 cardsQuery">
                     <Link to={"/item/" + producto.idx} className='text-decoration-none'>
-                        <div className="card " style={estiloCards}>
+                        <div className="card estiloCards" >
                             
                             <img src={producto.imagen} className="card-img-top" alt={producto.nombre} />
                             <div className="card-body" >
