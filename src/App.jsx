@@ -6,11 +6,15 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import { BrowserRouter,Routes, Route} from 'react-router-dom';
+import CartContextProvider from './Context/CartContext';
+import Cart from './components/Cart';
+
 
 function App() {
         return (
           
             <div className='' style={{backgroundColor:'var(--colorTres)'}}>
+                <CartContextProvider>
                 <BrowserRouter>
                 <Navbar/>
                 <Carousel/>
@@ -18,12 +22,14 @@ function App() {
                     <Route path={"/"} element={<ItemListContainer slogan={"Más que una IPA"} />} />
                     <Route path={'/category/:id'} element={<ItemListContainer slogan={"Más que una IPA"} />} />
                     <Route path={'/item/:id'} element={<ItemDetailContainer/>} />
+                    <Route path={'/cart'} element={<Cart/>} />
                     <Route path={'/*'} element={ <div style={{height:"100vh"}}>
                     <div className="alert alert-danger m-2" role="alert" >ERROR 404 NOT FOUND</div>
                     </div>}/>
                 </Routes>
                 <Footer legal={"Producto exclusivo para mayores de 18 años"} />
                 </BrowserRouter>
+                </CartContextProvider>
             </div>
          
         

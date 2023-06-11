@@ -8,7 +8,7 @@ const Item = ({producto})=>{
         <>
         
             <div className="col mx-5 cardsQuery">
-                    <Link to={"/item/" + producto.idx} className='text-decoration-none'>
+                    <Link to={"/item/" + producto.id} className='text-decoration-none'>
                         <div className="card estiloCards" >
                             
                             <img src={producto.imagen} className="card-img-top" alt={producto.nombre} />
