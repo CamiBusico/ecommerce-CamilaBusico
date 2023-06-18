@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-// import ItemCount from './ItemCount'
+
 
 const Item = ({producto})=>{
 
@@ -16,7 +16,6 @@ const Item = ({producto})=>{
                                 <h5 className="card-title tituloCard">{producto.tipo} {producto.nombre} </h5>
                                 <p className="card-text">{producto.descripcion}</p>
                                 <p>${producto.precio} </p>
-                              {/* <ItemCount stock={producto.stock} /> */}
 
                             </div>
                            

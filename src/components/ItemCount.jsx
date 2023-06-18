@@ -41,7 +41,7 @@ const ItemCount =({stock, onAdd}) =>{
                 <button type="button" className="btn btn-outline-primary estiloBotones">{unidades} </button>
                 <button type="button" className="btn btn-outline-primary estiloBotones" onClick={incrementar}>+</button>
             </div>
-            
+            <br />
             {unidadesAdded ? <Link to={"/cart"} className="btn btn-outline-primary my-2 estiloBotones">Finalizar Compra</Link> : 
             <button className="btn btn-outline-primary my-2 estiloBotones" onClick={addToCart}>Agregar al carrito</button>}
          </div>

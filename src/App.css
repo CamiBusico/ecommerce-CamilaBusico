@@ -65,12 +65,14 @@
     background-color:  var(--colorTres);
     color:var(--colorCuatro);
     border: black;
-    border-radius: 2px;
+    border-radius: 5px;
+    
 }
 
 .estiloBotones:hover{
           background-color: var(--colorCuatro);
           color: var(--colorTres);
+        
       }
 
 .estiloBotones:focus:active{background-color: #772B08;
