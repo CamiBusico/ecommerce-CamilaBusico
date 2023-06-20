@@ -38,7 +38,12 @@ const Checkout = () =>{
         addDoc(OrdersCollection, order).then(resultado=>{
             setOrderId(resultado.id)
             clear()
+
+
+
         })
+
+
 
 
     }
@@ -86,8 +91,8 @@ const Checkout = () =>{
 
                 </div>
                     <div className="text-center">
-                    <button type="button" className=" btn btn-outline-primary my-2 estiloBotones p-1"  style={{backgroundColor:"#d2c885"}}
-                    onClick={nuevaOrden}> Finalizar Compra </button>
+                    <button type="button" className="estiloBotones my-2 p-1"  style={{backgroundColor:"#d2c885"}}
+                    onClick={nuevaOrden}> Finalizar Pedido </button>
                     </div>
             </div>
 
